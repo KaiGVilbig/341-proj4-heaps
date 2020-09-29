@@ -1,0 +1,28 @@
+IntHeap Holds:
+Data Is:      9734                           Priority is:	9734
+Data Is:      3412                           Priority is:	3412
+Data Is:      1234                           Priority is:	1234
+StringHeap Holds:
+Data Is:  Students                           Priority is:	858
+Data Is:     Hello                           Priority is:	500
+TotalHeap Holds:
+
+Merging...
+IntHeap Holds:
+StringHeap Holds:
+TotalHeap Holds:
+Data Is:      9734                           Priority is:	9734
+Data Is:      3412                           Priority is:	3412
+Data Is:      1234                           Priority is:	1234
+Data Is:  Students                           Priority is:	858
+Data Is:     Hello                           Priority is:	500
+
+Changing Priority Fn...
+IntHeap Holds:
+StringHeap Holds:
+TotalHeap Holds:
+Data Is:     Hello                           Priority is:	-500
+Data Is:  Students                           Priority is:	-858
+Data Is:      1234                           Priority is:	-1234
+Data Is:      3412                           Priority is:	-3412
+Data Is:      9734                           Priority is:	-9734

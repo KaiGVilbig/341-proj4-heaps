@@ -1,0 +1,147 @@
+ 
+Inserting 10..0 into skew heap:
+(10)
+((9)10)
+((8)10(9))
+(((7)9)10(8))
+(((6)8)10((7)9))
+(((5)9(7))10((6)8))
+(((4)8(6))10((5)9(7)))
+((((3)7)9(5))10((4)8(6)))
+((((2)6)8(4))10(((3)7)9(5)))
+((((1)5)9((3)7))10(((2)6)8(4)))
+((((0)4)8((2)6))10(((1)5)9((3)7)))
+Data Is:Ha Ha I'm a String                           Priority is:	1415
+Data Is:        10                           Priority is:	10
+Data Is:         9                           Priority is:	9
+Data Is:         8                           Priority is:	8
+Data Is:         7                           Priority is:	7
+Data Is:         6                           Priority is:	6
+Data Is:         5                           Priority is:	5
+Data Is:         4                           Priority is:	4
+Data Is:         3                           Priority is:	3
+Data Is:         2                           Priority is:	2
+Data Is:         1                           Priority is:	1
+Data Is:         0                           Priority is:	0
+(((((0)4)8((2)6))10(((1)5)9((3)7)))Ha Ha I'm a String)
+
+Remove Test:
+Dumping s1:
+Data Is:        10                           Priority is:	10
+Data Is:         9                           Priority is:	9
+Data Is:         8                           Priority is:	8
+Data Is:         7                           Priority is:	7
+Data Is:         6                           Priority is:	6
+Data Is:         5                           Priority is:	5
+Data Is:         4                           Priority is:	4
+Data Is:         3                           Priority is:	3
+Data Is:         2                           Priority is:	2
+Data Is:         1                           Priority is:	1
+Data Is:         0                           Priority is:	0
+((((0)4)8((2)6))10(((1)5)9((3)7)))
+
+Copy Construtor Test:
+Dumping s1:
+Data Is:        10                           Priority is:	10
+Data Is:         9                           Priority is:	9
+Data Is:         8                           Priority is:	8
+Data Is:         7                           Priority is:	7
+Data Is:         6                           Priority is:	6
+Data Is:         5                           Priority is:	5
+Data Is:         4                           Priority is:	4
+Data Is:         3                           Priority is:	3
+Data Is:         2                           Priority is:	2
+Data Is:         1                           Priority is:	1
+Data Is:         0                           Priority is:	0
+((((0)4)8((2)6))10(((1)5)9((3)7)))
+Dumping s2:
+Data Is:Ha Ha I'm a String                           Priority is:	1415
+Data Is:        10                           Priority is:	10
+Data Is:         9                           Priority is:	9
+Data Is:         8                           Priority is:	8
+Data Is:         7                           Priority is:	7
+Data Is:         6                           Priority is:	6
+Data Is:         5                           Priority is:	5
+Data Is:         4                           Priority is:	4
+Data Is:         3                           Priority is:	3
+Data Is:         2                           Priority is:	2
+Data Is:         1                           Priority is:	1
+Data Is:         0                           Priority is:	0
+(((((0)4)8((2)6))10(((1)5)9((3)7)))Ha Ha I'm a String)
+
+Assignment Operator Test:
+Dumping s1:
+Data Is:        10                           Priority is:	10
+Data Is:         9                           Priority is:	9
+Data Is:         8                           Priority is:	8
+Data Is:         7                           Priority is:	7
+Data Is:         6                           Priority is:	6
+Data Is:         5                           Priority is:	5
+Data Is:         4                           Priority is:	4
+Data Is:         3                           Priority is:	3
+Data Is:         2                           Priority is:	2
+Data Is:         1                           Priority is:	1
+Data Is:         0                           Priority is:	0
+((((0)4)8((2)6))10(((1)5)9((3)7)))
+Dumping s3:
+Data Is:Ha Ha I'm a String                           Priority is:	1415
+Data Is:        10                           Priority is:	10
+Data Is:         9                           Priority is:	9
+Data Is:         8                           Priority is:	8
+Data Is:         7                           Priority is:	7
+Data Is:         6                           Priority is:	6
+Data Is:         5                           Priority is:	5
+Data Is:         4                           Priority is:	4
+Data Is:         3                           Priority is:	3
+Data Is:         2                           Priority is:	2
+Data Is:         1                           Priority is:	1
+Data Is:         0                           Priority is:	0
+(((((0)4)8((2)6))10(((1)5)9((3)7)))Ha Ha I'm a String)
+
+Additional Remove Test:
+Dumping s1:
+Data Is:         6                           Priority is:	6
+Data Is:         5                           Priority is:	5
+Data Is:         4                           Priority is:	4
+Data Is:         3                           Priority is:	3
+Data Is:         2                           Priority is:	2
+Data Is:         1                           Priority is:	1
+Data Is:         0                           Priority is:	0
+((((1)3)5((0)4))6(2))
+
+Test of merge function:
+Merging Existing Heaps...
+Data Is:This is some data                           Priority is:	1570
+Data Is:This is More Data                           Priority is:	1505
+Data Is:Ha Ha I'm a String                           Priority is:	1415
+Data Is:        10                           Priority is:	10
+Data Is:         9                           Priority is:	9
+Data Is:         8                           Priority is:	8
+Data Is:         7                           Priority is:	7
+Data Is:         6                           Priority is:	6
+Data Is:         5                           Priority is:	5
+Data Is:         4                           Priority is:	4
+Data Is:         3                           Priority is:	3
+Data Is:         2                           Priority is:	2
+Data Is:         1                           Priority is:	1
+Data Is:         0                           Priority is:	0
+((((((0)4)8((2)6))10(((1)5)9((3)7)))Ha Ha I'm a String)This is some data(This is More Data))
+
+Testing Pri Fn Change:
+Data Is:         0                           Priority is:	0
+Data Is:         1                           Priority is:	-1
+Data Is:         2                           Priority is:	-2
+Data Is:         3                           Priority is:	-3
+Data Is:         4                           Priority is:	-4
+Data Is:         5                           Priority is:	-5
+Data Is:         6                           Priority is:	-6
+Data Is:         7                           Priority is:	-7
+Data Is:         8                           Priority is:	-8
+Data Is:         9                           Priority is:	-9
+Data Is:        10                           Priority is:	-10
+Data Is:Ha Ha I'm a String                           Priority is:	-1415
+Data Is:This is More Data                           Priority is:	-1505
+Data Is:This is some data                           Priority is:	-1570
+((((((((((((((This is some data)This is More Data)Ha Ha I'm a String)10)9)8)7)6)5)4)3)2)1)0)
+
+Done!
